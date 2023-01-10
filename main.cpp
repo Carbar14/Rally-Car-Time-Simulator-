@@ -7,6 +7,7 @@
 #include <iomanip>
 #include <cmath>
 
+#include "func.hpp"
 
 struct Track{
     //full name of the track
@@ -47,9 +48,7 @@ void pickMap()
 }
 
 
-std::vector<double> createTimes(double def_time);
 
-void printTimes(std::vector<double> times);
 
 int main()
 {
