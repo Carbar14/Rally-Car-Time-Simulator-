@@ -20,4 +20,4 @@ open windows terminal (command prompt)
 
 navigate to the file that main.exe is in (using "cd 'filename'" and "dir" to see files/folders in the folder you are currently in)
 
-then run it by saying main.exe
+then run it by saying "main.exe"
