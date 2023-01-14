@@ -113,3 +113,23 @@ std::vector<double> createTimes(double def_time)
     std::sort(times.begin(), times.end());
     return times;
 }
+
+//takes input for track, car, and difficulty
+void pickMap(int& carInput, int& trackInput, int& difficultyInput)
+{
+    //Track choosing
+    std::cout << "Please pick one of the courses down below, just enter the number.\n\n";
+    std::cout << "East Coast:\n" << "\t1. Lumber Field Forward\n" << "\t2. Lumber Field Reverse\n" << "\t3. Coastal Pass\n";
+    std::cout << "Italy:\n" << "\t4. Castalletto Uphill\n" << "\t5. Castalletto Downhill\n";
+    std::cin >> trackInput;
+
+    //Car choosing
+    std::cout << "Please pick a car, enter the number corresponding to the car.\n\n";
+    std::cout << "\t1. Ibishu Covet, Rally-Gravel\n" << "\t2. ETK I-Series, Rally-Gravel\n" << "\t3. Cherrier Rally Gravel\n";
+    std::cin >> carInput;
+
+    //Difficulty choosing
+    std::cout << "Please choose a difficulty:\n";
+    std::cout << "\t1. Easy\n" << "\t2. Medium\n" << "\t3. Hard\n";
+    std::cin >> difficultyInput;
+}
